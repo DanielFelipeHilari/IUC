@@ -1,0 +1,4 @@
+com/example/internationalunitchanger/test/BuildConfig.java
+ com.example.internationalunitchanger.test.BuildConfig
+com/example/internationalunitchanger/ExampleInstrumentedTest.java
+ com.example.internationalunitchanger.ExampleInstrumentedTest
