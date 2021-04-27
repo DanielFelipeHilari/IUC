@@ -1,0 +1,430 @@
+[
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_temperature.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_temperature.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_volume_liquide.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_volume_liquide.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_distances.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_distances.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_activity_main.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_github.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_github.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_info_supp.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info_supp.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_volumes.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_volumes.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cut_card_background.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\drawable\\cut_card_background.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_poids.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_poids.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_devises.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_devises.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_temps.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_temps.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_temperature.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_temperature.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_menu.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_menu.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_volume_liquide.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_volume_liquide.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_poids.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_poids.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_contact.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_contact.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_vitesse.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vitesse.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_github.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_github.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_devises.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_devises.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_volumes.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_volumes.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_distances.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_distances.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_temps.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_temps.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_info_supp.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_info_supp.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_menu.png.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_menu.png"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_contact.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_contact.xml"
+    },
+    {
+        "merged": "D:\\testandroid\\iuc\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_vitesse.xml.flat",
+        "source": "D:\\testandroid\\iuc\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vitesse.xml"
+    }
+]
