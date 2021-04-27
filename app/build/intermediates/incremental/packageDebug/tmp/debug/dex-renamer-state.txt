@@ -1,0 +1,4 @@
+#Tue Apr 27 16:17:54 CEST 2021
+base.0=D\:\\testandroid\\iuc\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
