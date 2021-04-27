@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">International Unit Changer</string>
+
+    // Texte du Menu
+
+    <string name="poids">Poids</string>
+    <string name="distances">Distances</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="volumes">Volumes</string>
+    <string name="vitesses">Vitesses</string>
+    <string name="temperature">Temperature</string>
+    <string name="temps">Temps</string>
+</resources>
