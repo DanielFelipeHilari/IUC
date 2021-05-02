@@ -17,3 +17,21 @@ TECHNOLOGIES UTILISE
 
 Utilisation de github pour le developpement et l'organisation du projet. Après avoir effectué une maquette de l'application (qui se trouve dans les issues en format pdf) l'application est codé sous Android Studio. L'application utilise une Navigation pour naviger entre les differents fragments qui permettent les covertion. Des animations sont intégrer à chaque fragment. 
 
+LIENS UTILISER POUR LE DEVELOPPEMENT
+
+liens interface : 
+
+https://material.io/design/navigation/navigation-transitions.html#hierarchical-transitions
+https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+liens de developpement : 
+
+https://developer.android.com/guide/topics/ui/controls/spinner
+https://developer.android.com/guide/fragments
+https://developer.android.com/guide/navigation/navigation-getting-started
+https://developer.android.com/studio/write/image-asset-studio
+
+Autres liens de produtions : 
+
+https://icones8.fr/
+https://fr.freelogodesign.org/
