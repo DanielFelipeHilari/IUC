@@ -18,6 +18,13 @@
     <string name="convertir">Convertir</string>
     <string name="citation">Citation</string>
     <string name="output">Output</string>
+    <string name="kilogrammes">Kilogrammes</string>
+    <string name="milligrammes">Milligrammes</string>
+    <string name="centigrammes">Centigrammes</string>
+    <string name="decigrammes">Decigrammes</string>
+    <string name="grammes">Grammes</string>
+    <string name="decagrammes">Decagrammes</string>
+    <string name="Hectogrammes">Hectogrammes</string>
     <string-array name="inputs_poids">
         <item>Kilogrammes</item>
         <item>Hectogrammes</item>
@@ -27,4 +34,68 @@
         <item>Centigrammes</item>
         <item>Milligrammes</item>
     </string-array>
+
+
+    // distances
+
+    <string name="kilometress">Kilometres</string>
+    <string name="millimetres">Millimetres</string>
+    <string name="centimetres">Centimetres</string>
+    <string name="decimetres">Decimetres</string>
+    <string name="metress">Metres</string>
+    <string name="decametres">Decagrammes</string>
+    <string name="Hectometres">Hectogrammes</string>
+    <string name="distances_maj">DISTANCES</string>
+    <string-array name="inputs_distance">
+        <item>Kilometres</item>
+        <item>Hectometres</item>
+        <item>Décametres</item>
+        <item>Metres</item>
+        <item>Décimetres</item>
+        <item>Centimetres</item>
+        <item>Millimetres</item>
+    </string-array>
+
+
+    // cuisine
+    <string name="kilolitre">Kilolitres</string>
+    <string name="millilitre">Millilitres</string>
+    <string name="centilitre">Centilitre</string>
+    <string name="decilitre">Decilitres</string>
+    <string name="litre">Litre</string>
+    <string name="decalitre">Decalitre</string>
+    <string name="Hectolitre">Hectolitre</string>
+    <string name="cuisine_maj">CUISINE</string>
+    <string name="historique">Historique</string>
+    <string name="devises">Devises</string>
+    <string name="devises_maj">DEVISES</string>
+    <string name="eur">EUR</string>
+    <string name="usd">USD</string>
+    <string name="jpy">JPY</string>
+    <string name="gbp">GBP</string>
+    <string name="cita_cuisine">La bonne cuisine est honnête, sincère et simple.</string>
+    <string name="cit_devise">Ma devise : une bonne sieste et au lit</string>
+    <string name="cit_distance">Comme pour la prière il n y a pas de distance pour l amitié</string>
+    <string name="cit_poids">Le divertissement est le meilleur régime contre le poids de l existence</string>
+    <string-array name="inputs_cuisine">
+        <item>Kilolitre</item>
+        <item>Hectolitre</item>
+        <item>Décalitre</item>
+        <item>Litre</item>
+        <item>Décilitre</item>
+        <item>Centilitre</item>
+        <item>Millilitre</item>
+    </string-array>
+
+
+    //devises
+    <string-array name="inputs_devise">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>GBP</item>
+    </string-array>
+
+
+
 </resources>

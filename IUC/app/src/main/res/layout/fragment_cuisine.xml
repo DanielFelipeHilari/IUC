@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment_poid"
+    tools:context=".fragment_cuisine"
     android:background="@drawable/cut_card_background2">
 
     <GridLayout
@@ -35,7 +35,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/poids_maj"
+                    android:text="@string/cuisine_maj"
                     android:textSize="18sp"
                     android:textColor="@color/yellow"
                     android:textStyle="bold"/>
@@ -56,7 +56,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:gravity="center"
-        android:text="@string/cit_poids"
+        android:text="@string/cita_cuisine"
         android:textStyle="italic"
         android:layout_marginVertical="30dp"
         android:layout_marginHorizontal="30dp"
@@ -86,7 +86,7 @@
             android:id="@+id/spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/inputs_poids" />
+            android:entries="@array/inputs_cuisine" />
 
     </LinearLayout>
 
@@ -111,7 +111,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/kilogrammes"
+            android:text="@string/kilolitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/kilogrammes"
+            android:hint="@string/kilolitre"
             android:inputType="number" />
 
     </LinearLayout>
@@ -135,7 +135,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Hectogrammes"
+            android:text="@string/Hectolitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -145,7 +145,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/Hectogrammes"
+            android:hint="@string/Hectolitre"
             android:inputType="number" />
 
     </LinearLayout>
@@ -159,7 +159,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/decagrammes"
+            android:text="@string/decalitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -169,7 +169,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/decagrammes"
+            android:hint="@string/decalitre"
             android:inputType="number" />
 
     </LinearLayout>
@@ -183,7 +183,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/grammes"
+            android:text="@string/litre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -193,7 +193,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/grammes"
+            android:hint="@string/litre"
             android:inputType="number" />
 
 
@@ -208,7 +208,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/decigrammes"
+            android:text="@string/decilitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -218,7 +218,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/decigrammes"
+            android:hint="@string/decilitre"
             android:inputType="number" />
 
     </LinearLayout>
@@ -232,7 +232,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/centigrammes"
+            android:text="@string/centilitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -242,7 +242,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/centigrammes"
+            android:hint="@string/centilitre"
             android:inputType="number" />
 
     </LinearLayout>
@@ -256,7 +256,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/milligrammes"
+            android:text="@string/millilitre"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -266,7 +266,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/milligrammes"
+            android:hint="@string/millilitre"
             android:inputType="number" />
 
     </LinearLayout>

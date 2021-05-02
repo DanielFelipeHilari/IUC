@@ -1,11 +1,7 @@
 package com.example.internationalunitchanger;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -16,15 +12,13 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
-/**
- * //////////////////////////////////////////////////////////////////////////////
- * POUR VOIR LES COMMENTAIRES POUR L4EXPLICATION DU CODE VOIR : fragment_cuisine
- * TOUT LES FRAGMENTS SONT FAIT DE LA MEME SORTE (sauf fragment_menu)
- * //////////////////////////////////////////////////////////////////////////////
- */
 
-public class fragment_poid extends Fragment implements AdapterView.OnItemSelectedListener {
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link fragment_cuisine#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class fragment_cuisine extends Fragment implements AdapterView.OnItemSelectedListener{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +29,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     private String mParam1;
     private String mParam2;
 
-
+    //Declaration de nos variables
     EditText input;
     EditText output_kilo;
     EditText output_heca;
@@ -46,9 +40,8 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     EditText output_mili;
     Button button;
 
-    SharedPreferences sp;
 
-    public fragment_poid() {
+    public fragment_cuisine() {
         // Required empty public constructor
     }
 
@@ -58,11 +51,11 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment fragment_poid.
+     * @return A new instance of fragment fragment_cuisine.
      */
     // TODO: Rename and change types and number of parameters
-    public static fragment_poid newInstance(String param1, String param2) {
-        fragment_poid fragment = new fragment_poid();
+    public static fragment_cuisine newInstance(String param1, String param2) {
+        fragment_cuisine fragment = new fragment_cuisine();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -77,16 +70,15 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
 
-        //Spinner
-        View rootView = inflater.inflate(R.layout.fragment_poid,container,false);
+
+        //Initialisation des variables du code
+        View rootView = inflater.inflate(R.layout.fragment_cuisine,container,false);
         Spinner spinner = rootView.findViewById(R.id.spinner);
         input = rootView.findViewById(R.id.editTextNumber);
         output_kilo = rootView.findViewById(R.id.editTextNumber2);
@@ -98,18 +90,19 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         output_mili = rootView.findViewById(R.id.editTextNumber8);
         button = rootView.findViewById(R.id.button2);
 
+        //Utilisation du Spinner pour les convertions
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.inputs_poids, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.inputs_cuisine, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
         return rootView;
     }
-
     void Convert_kilo(View sender){
+        /**Fonction pour convertir des kilogrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
-
+        //Initialisation des variables de retour
         final float outputValue = inputValue + 0.f; // kilo en kilo
         final float outputValue2 = inputValue*10.f; // kilo en heca
         final float outputValue3 = inputValue*100.f; // kilo en deca
@@ -117,7 +110,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         final float outputValue5 = inputValue*10000.f; // kilo en deci
         final float outputValue6 = inputValue*100000.f; // kilo en centi
         final float outputValue7 = inputValue*1000000.f; // kilo en milli
-
+        //La precision de nos variables de retour
         final String outputStr = String.format("%.2f",outputValue);
         final String outputStr2 = String.format("%.2f",outputValue2);
         final String outputStr3 = String.format("%.2f",outputValue3);
@@ -125,7 +118,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         final String outputStr5 = String.format("%.2f",outputValue5);
         final String outputStr6= String.format("%.2f",outputValue6);
         final String outputStr7 = String.format("%.2f",outputValue7);
-
+        //Affichage de nos variables
         output_kilo.setText(outputStr);
         output_heca.setText(outputStr2);
         output_deca.setText(outputStr3);
@@ -134,8 +127,11 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         output_centi.setText(outputStr6);
         output_mili.setText(outputStr7);
 
+        // Toutes les fonctions utilisent le meme concept
+
     }
     void Convert_hecto(View sender){
+        /**Fonction pour convertir des hectogrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -165,6 +161,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     }
 
     void Convert_deca(View sender){
+        /**Fonction pour convertir des decagrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -184,7 +181,6 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         final String outputStr6= String.format("%.2f",outputValue6);
         final String outputStr7 = String.format("%.2f",outputValue7);
 
-
         output_kilo.setText(outputStr);
         output_heca.setText(outputStr2);
         output_deca.setText(outputStr3);
@@ -196,6 +192,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     }
 
     void Convert_gram(View sender){
+        /**Fonction pour convertir des grammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -226,6 +223,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     }
 
     void Convert_deci(View sender){
+        /**Fonction pour convertir des decigrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -255,6 +253,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
 
     }
     void Convert_centi(View sender){
+        /**Fonction pour convertir des centigrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -285,6 +284,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     }
 
     void Convert_milli(View sender){
+        /**Fonction pour convertir des milligrammes en toutes unité de masse */
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
 
@@ -315,6 +315,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     }
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        /**Utilisation du spinner par rapport a l'element choisit*/
         if(position == 0)
         {
             button.setOnClickListener(this::Convert_kilo);

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment_menu">
+
+    <fragment
+        android:id="@+id/fragment_menu"
+        android:name="com.example.internationalunitchanger.fragment_menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_poid"
+            app:destination="@id/fragment_poid"
+            app:enterAnim="@anim/gauche" />
+        <action
+            android:id="@+id/action_cuisine"
+            app:destination="@id/fragment_cuisine"
+            app:enterAnim="@anim/gauche_bas" />
+        <action
+            android:id="@+id/action_distance"
+            app:destination="@id/fragment_distance"
+            app:enterAnim="@anim/droite" />
+        <action
+            android:id="@+id/action_historique"
+            app:destination="@id/historique"
+            app:enterAnim="@anim/bas" />
+        <action
+            android:id="@+id/action_devise"
+            app:destination="@id/fragment_devise"
+            app:enterAnim="@anim/doite_bas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_poid"
+        android:name="com.example.internationalunitchanger.fragment_poid"
+        android:label="fragment_poid"
+        tools:layout="@layout/fragment_poid" />
+    <fragment
+        android:id="@+id/fragment_cuisine"
+        android:name="com.example.internationalunitchanger.fragment_cuisine"
+        android:label="fragment_cuisine"
+        tools:layout="@layout/fragment_cuisine" />
+    <fragment
+        android:id="@+id/fragment_distance"
+        android:name="com.example.internationalunitchanger.fragment_distance"
+        android:label="fragment_distance"
+        tools:layout="@layout/fragment_distance" />
+    <fragment
+        android:id="@+id/historique"
+        android:name="com.example.internationalunitchanger.historique"
+        android:label="fragment_historique"
+        tools:layout="@layout/fragment_historique" />
+    <fragment
+        android:id="@+id/fragment_devise"
+        android:name="com.example.internationalunitchanger.fragment_devise"
+        android:label="fragment_devise"
+        tools:layout="@layout/fragment_devise" />
+</navigation>

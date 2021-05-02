@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment_poid"
-    android:background="@drawable/cut_card_background2">
+    tools:context=".fragment_devise">
 
     <GridLayout
         android:id="@+id/Titrefrag"
@@ -35,7 +34,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/poids_maj"
+                    android:text="@string/devises_maj"
                     android:textSize="18sp"
                     android:textColor="@color/yellow"
                     android:textStyle="bold"/>
@@ -56,7 +55,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:gravity="center"
-        android:text="@string/cit_poids"
+        android:text="@string/cit_devise"
         android:textStyle="italic"
         android:layout_marginVertical="30dp"
         android:layout_marginHorizontal="30dp"
@@ -86,7 +85,7 @@
             android:id="@+id/spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/inputs_poids" />
+            android:entries="@array/inputs_devise" />
 
     </LinearLayout>
 
@@ -111,7 +110,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/kilogrammes"
+            android:text="@string/eur"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -121,7 +120,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/kilogrammes"
+            android:hint="@string/eur"
             android:inputType="number" />
 
     </LinearLayout>
@@ -135,7 +134,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Hectogrammes"
+            android:text="@string/usd"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -145,7 +144,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/Hectogrammes"
+            android:hint="@string/usd"
             android:inputType="number" />
 
     </LinearLayout>
@@ -159,7 +158,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/decagrammes"
+            android:text="@string/jpy"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -169,7 +168,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/decagrammes"
+            android:hint="@string/jpy"
             android:inputType="number" />
 
     </LinearLayout>
@@ -183,7 +182,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/grammes"
+            android:text="@string/gbp"
             android:layout_marginRight="10dp"
             android:layout_marginEnd="10dp" />
 
@@ -193,81 +192,11 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:enabled="false"
-            android:hint="@string/grammes"
+            android:hint="@string/gbp"
             android:inputType="number" />
 
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linear_deci"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linear_gram"
-        android:layout_marginHorizontal="30dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/decigrammes"
-            android:layout_marginRight="10dp"
-            android:layout_marginEnd="10dp" />
 
-        <EditText
-            android:id="@+id/editTextNumber6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:enabled="false"
-            android:hint="@string/decigrammes"
-            android:inputType="number" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linear_centi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linear_deci"
-        android:layout_marginHorizontal="30dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/centigrammes"
-            android:layout_marginRight="10dp"
-            android:layout_marginEnd="10dp" />
-
-        <EditText
-            android:id="@+id/editTextNumber7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:enabled="false"
-            android:hint="@string/centigrammes"
-            android:inputType="number" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linear_mili"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linear_centi"
-        android:layout_marginHorizontal="30dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/milligrammes"
-            android:layout_marginRight="10dp"
-            android:layout_marginEnd="10dp" />
-
-        <EditText
-            android:id="@+id/editTextNumber8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:enabled="false"
-            android:hint="@string/milligrammes"
-            android:inputType="number" />
-
-    </LinearLayout>
 </RelativeLayout>

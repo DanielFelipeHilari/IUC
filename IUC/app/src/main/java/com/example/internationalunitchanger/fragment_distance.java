@@ -1,13 +1,7 @@
 package com.example.internationalunitchanger;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
 /**
  * //////////////////////////////////////////////////////////////////////////////
  * POUR VOIR LES COMMENTAIRES POUR L4EXPLICATION DU CODE VOIR : fragment_cuisine
@@ -24,7 +17,13 @@ import android.widget.Toast;
  * //////////////////////////////////////////////////////////////////////////////
  */
 
-public class fragment_poid extends Fragment implements AdapterView.OnItemSelectedListener {
+/**
+ * A simple {@link Fragment} subclass.
+ * Use the {@link fragment_distance#newInstance} factory method to
+ * create an instance of this fragment.
+ *
+ */
+public class fragment_distance extends Fragment implements AdapterView.OnItemSelectedListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -46,28 +45,26 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
     EditText output_mili;
     Button button;
 
-    SharedPreferences sp;
-
-    public fragment_poid() {
-        // Required empty public constructor
-    }
-
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment fragment_poid.
+     * @return A new instance of fragment fragment_distance.
      */
     // TODO: Rename and change types and number of parameters
-    public static fragment_poid newInstance(String param1, String param2) {
-        fragment_poid fragment = new fragment_poid();
+    public static fragment_distance newInstance(String param1, String param2) {
+        fragment_distance fragment = new fragment_distance();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    public fragment_distance() {
+        // Required empty public constructor
     }
 
     @Override
@@ -77,7 +74,6 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
     }
 
     @Override
@@ -86,7 +82,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         // Inflate the layout for this fragment
 
         //Spinner
-        View rootView = inflater.inflate(R.layout.fragment_poid,container,false);
+        View rootView = inflater.inflate(R.layout.fragment_distance,container,false);
         Spinner spinner = rootView.findViewById(R.id.spinner);
         input = rootView.findViewById(R.id.editTextNumber);
         output_kilo = rootView.findViewById(R.id.editTextNumber2);
@@ -99,13 +95,12 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         button = rootView.findViewById(R.id.button2);
 
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.inputs_poids, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(),R.array.inputs_distance, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
         return rootView;
     }
-
     void Convert_kilo(View sender){
         String inputStr = input.getText().toString();
         final float inputValue = Float.parseFloat(inputStr);
@@ -183,7 +178,6 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         final String outputStr5 = String.format("%.2f",outputValue5);
         final String outputStr6= String.format("%.2f",outputValue6);
         final String outputStr7 = String.format("%.2f",outputValue7);
-
 
         output_kilo.setText(outputStr);
         output_heca.setText(outputStr2);
@@ -343,6 +337,7 @@ public class fragment_poid extends Fragment implements AdapterView.OnItemSelecte
         {
             button.setOnClickListener(this::Convert_milli);
         }
+
     }
 
     @Override
